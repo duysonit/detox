@@ -34,7 +34,7 @@ class CountersPage {
         await expect(this.electricityCounterTotal).toHaveText('0');
         await expect(this.gasCounterText).toHaveText('GAS COUNTER');
         await expect(this.gasCounterTotal).toHaveText('0');
-        await expect(this.broadbandCounterText).toHaveText('BROADBAND COUNTERzz');
+        await expect(this.broadbandCounterText).toHaveText('BROADBAND COUNTER');
         await expect(this.broadbandCounterTotal).toHaveText('0');
     }
 
